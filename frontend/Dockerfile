@@ -7,14 +7,14 @@ WORKDIR /usr/src/app
 COPY package.json ./
 COPY yarn.lock ./
 
+# Copy local files to container
+COPY . ./
+
 # Install dependencies
 RUN yarn
 
 # Build the app
 RUN yarn build
-
-# Copy local files to container
-COPY . ./
 
 # Expose the port where the app is listen
 EXPOSE 3000

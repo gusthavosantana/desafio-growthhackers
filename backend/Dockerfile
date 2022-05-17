@@ -7,13 +7,13 @@ WORKDIR /usr/src/app
 COPY package.json ./
 COPY yarn.lock ./
 
+COPY . .
+
 # If you are building your code for production
 RUN yarn
 
 # Build the project
 RUN yarn build
-
-COPY . .
 
 # Expose PORT where the server is listen
 EXPOSE 3001

@@ -18,20 +18,20 @@ services:
       - server
     build:
       dockerfile: Dockerfile
-      context: ./desafio-growthhackers-frontend
+      context: ./frontend
     ports:
       - 3000:3000
-    env_file: ./desafio-growthhackers-frontend/.env.production
+    env_file: ./frontend/.env.production
   server:
     depends_on:
       - postgres
     build:
       dockerfile: Dockerfile
-      context: ./desafio-growthhackers-backend
+      context: ./backend
     working_dir: /usr/src/app
     entrypoint: ["/bin/bash", "./entrypoint.sh"]
     ports:
       - 3001:3001
-    env_file: ./desafio-growthhackers-frontend/.env.production
+    env_file: ./backend/.env.production
 volumes:
   pg_data:
