@@ -5,7 +5,7 @@
 Índice
 =================
 <!--ts-->
-   * [Instalação e configuração](#instalacao)
+   * [Instalação](#instalacao)
    * [Execute a aplicação](#execucao)
    * [Executando aplicações isoladamente](#exec-isoladamente)
 <!--te-->
@@ -29,7 +29,7 @@ Nos projetos frontend e backend, copie o arquivo .env.example, renomeie para .en
 $ docker-compose up
 ```
 
-<h2 id="exec-isoladamente">Executando as aplicações isoladamente</h2>
+<h2 id="exec-isoladamente">Executando aplicações isoladamente</h2>
 
 Para rodar o frontend ou backend de forma isolada, siga os passos do repositório de cada projeto:
 - [Backend](https://github.com/gusthavosantana/desafio-growthhackers-backend)
