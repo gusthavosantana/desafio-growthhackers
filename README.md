@@ -5,10 +5,16 @@
 Índice
 =================
 <!--ts-->
+   * [Pré-requisitos](#pre-requisitos)
    * [Instalação](#instalacao)
    * [Execute a aplicação](#execucao)
    * [Executando aplicações isoladamente](#exec-isoladamente)
 <!--te-->
+
+<h2 id="pre-requisitos">Pré-requisitos</h2>
+
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 <h2 id="instalacao">Instalação</h2>
 
