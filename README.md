@@ -25,6 +25,7 @@ $ cd desafio-growthhackers
 Nos projetos frontend e backend, copie o arquivo .env.example, renomeie para .env e preencha o valor das variáveis dos respectivos ambientes.
 
 <h2 id="execucao">Execute a aplicação</h2>
+
 ```
 $ docker-compose up
 ```
